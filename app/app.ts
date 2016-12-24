@@ -11,6 +11,9 @@ import {ButtonTestPage} from './pages/button-test/button-test';
 import {CardTestPage} from './pages/card-test/card-test';
 import {IconTestPage} from './pages/icon-test/icon-test';
 import {InputTestPage} from './pages/input-test/input-test';
+import {ListTestPage} from './pages/list-test/list-test';
+import {GridTestPage} from './pages/grid-test/grid-test';
+import {ModalTestPage} from './pages/modal-test/modal-test';
 
 
 
@@ -33,7 +36,10 @@ export class MyApp {
       {component: ButtonTestPage, title : 'Button Test Page', icon: ''},
       {component: CardTestPage, title : 'Card Test Page', icon: ''},
       {component: IconTestPage, title : 'Icon Test Page', icon: ''},
-      {component: InputTestPage, title : 'Input Test Page', icon: ''}
+      {component: InputTestPage, title : 'Input Test Page', icon: ''},
+      {component: ListTestPage, title : 'List Test Page', icon: ''},
+      {component: GridTestPage, title : 'Grid Test Page', icon: ''},
+      {component: ModalTestPage, title : 'Modal', icon: ''}
 
     ];
 
