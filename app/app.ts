@@ -14,6 +14,7 @@ import {InputTestPage} from './pages/input-test/input-test';
 import {ListTestPage} from './pages/list-test/list-test';
 import {GridTestPage} from './pages/grid-test/grid-test';
 import {ModalTestPage} from './pages/modal-test/modal-test';
+import {NavigationTestPage} from './pages/navigation-test/navigation-test';
 
 
 
@@ -39,7 +40,9 @@ export class MyApp {
       {component: InputTestPage, title : 'Input Test Page', icon: ''},
       {component: ListTestPage, title : 'List Test Page', icon: ''},
       {component: GridTestPage, title : 'Grid Test Page', icon: ''},
-      {component: ModalTestPage, title : 'Modal', icon: ''}
+      {component: ModalTestPage, title : 'Modal', icon: ''},
+      {component: NavigationTestPage, title : 'Navigation', icon: ''}
+
 
     ];
 
